@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\vs">
+      <UniqueIdentifier>{bcd8e81f-5564-46bf-8989-e8bd0db251a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\fs">
+      <UniqueIdentifier>{24d30254-1faf-481a-bf0f-0439b64b6a5a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera0.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh0.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Model0.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SSAO.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VegetationRendering.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CascadedShadowMap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gBuffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Instance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Init_window.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pretreatment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader0.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="class_moving_object.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CascadedShadowMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SSAO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Instance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mywindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="glad.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragment\6.1.skybox.fs">
+      <Filter>资源文件\fs</Filter>
+    </None>
+    <None Include="fragment\8.g_buffer.fs">
+      <Filter>资源文件\fs</Filter>
+    </None>
+    <None Include="fragment\9.ssao.fs">
+      <Filter>资源文件\fs</Filter>
+    </None>
+    <None Include="fragment\shadow_mapping_depth.fs">
+      <Filter>资源文件\fs</Filter>
+    </None>
+    <None Include="fragment\ssao_blur.fs">
+      <Filter>资源文件\fs</Filter>
+    </None>
+    <None Include="fragment\test_deffer.fs">
+      <Filter>资源文件\fs</Filter>
+    </None>
+    <None Include="vertex\6.1.skybox.vs">
+      <Filter>资源文件\vs</Filter>
+    </None>
+    <None Include="vertex\8.g_buffer.vs">
+      <Filter>资源文件\vs</Filter>
+    </None>
+    <None Include="vertex\9.ssao.vs">
+      <Filter>资源文件\vs</Filter>
+    </None>
+    <None Include="vertex\shadow_mapping_depth.vs">
+      <Filter>资源文件\vs</Filter>
+    </None>
+    <None Include="vertex\test_deffer.vs">
+      <Filter>资源文件\vs</Filter>
+    </None>
+  </ItemGroup>
+</Project>
