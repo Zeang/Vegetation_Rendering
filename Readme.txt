@@ -1,4 +1,4 @@
-Source_lib文件夹请放置到D盘
+Source_lib文件夹请放置到D:\OpenGL
 没有D盘的请自己设置相应文件包含路径
 运行环境为VS2017 15  32位
 编译
